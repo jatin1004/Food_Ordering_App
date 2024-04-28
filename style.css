@@ -1,0 +1,78 @@
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid black;
+}
+.logo{
+    width:150px;
+    height:150px;
+}
+.nav>ul{
+    display:flex;
+    list-style-type:none;
+    
+}
+
+.nav>ul>li{
+    font-size:25px;
+    margin:10px;
+    
+}
+.search{
+    padding:15px;
+}
+.res-cards{
+    width:200px;
+
+    border-radius: 5px;
+    padding:7px;
+    background-color: #f0f0f0;
+    margin:5px;
+}
+.res-cards:hover{
+    cursor: pointer;
+    border:1px solid black;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.resimg{
+    width:100%;
+}
+.filterbtn{
+    margin:10px;
+    cursor: pointer;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.shimmer-card{
+    width:200px;
+    height:400px;
+    background-color: #f0f0f0;
+    margin:20px;
+    
+}
+.loginbtn{
+    height:40px;
+    margin-right: 20px;
+    padding:0 10px;
+    cursor: pointer;
+}
+.links{
+    text-decoration: none;
+    color:black;
+}
+
+.usercard{
+    border: 1px solid black;
+    padding:10px;
+    background-color: #f0f0f0;
+    width:300px;
+    margin:10px;
+}
